@@ -8,11 +8,11 @@ namespace csharp_abstract_animals
 {
     public interface IVolante
     {
-        void Vola() => Console.WriteLine("ciao volante");
+        void Vola();
     }
 
     public interface INuotante
     {
-        void Nuota() => Console.WriteLine("ciao nuotante");
+        void Nuota();
     }
 }

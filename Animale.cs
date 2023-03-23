@@ -15,6 +15,16 @@ namespace csharp_abstract_animals
 
         public abstract void Verso();
         public abstract void Mangia();
+
+        public void FaiVolare(IVolante animale)
+        {
+            animale.Vola();
+        }
+
+        public void FaiNuotare(INuotante animale)
+        {
+            animale.Nuota();
+        }
     }
 
     public class Cane : Animale, INuotante 

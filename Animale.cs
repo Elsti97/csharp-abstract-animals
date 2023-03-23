@@ -99,4 +99,27 @@ namespace csharp_abstract_animals
         }
     }
 
+    public class PulcinellaDiMare : Animale, INuotante, IVolante
+    {
+        public override void Verso()
+        {
+            Console.WriteLine("Fischio");
+        }
+
+        public override void Mangia()
+        {
+            Console.WriteLine("Mangia pesci");
+        }
+
+        public void Nuota()
+        {
+            Console.WriteLine("Sto nuotando!!!");
+        }
+
+        public void Vola()
+        {
+            Console.WriteLine("Sto volando!!!");
+        }
+    }
+
 }

@@ -36,3 +36,12 @@ delfino.Nuota();
 delfino.FaiNuotare(delfino);
 Console.WriteLine();
 
+Console.WriteLine("Pulcinella: ");
+PulcinellaDiMare pulcinella = new PulcinellaDiMare();
+pulcinella.Verso();
+pulcinella.Dormi();
+pulcinella.Mangia();
+pulcinella.FaiNuotare(pulcinella);
+pulcinella.FaiVolare(pulcinella);
+Console.WriteLine();
+
